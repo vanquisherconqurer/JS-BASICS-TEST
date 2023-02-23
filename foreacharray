@@ -1,0 +1,8 @@
+
+const names = ['Einstein','Mwangi','Gitahi','Vanquisher','Conqurer'];
+names.forEach(consoleName);
+
+function consoleName(name,index,arr){
+
+console.log('a ['+index+'] ='+name);
+}
